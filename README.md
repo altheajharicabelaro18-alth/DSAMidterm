@@ -24,12 +24,14 @@ How to set up Git, VS Code, and push your project to GitHub
 6. <strong> Install helpful VS Code extensions</strong>
  Click the Extensions icon on the left.
  Install these:
+
 Conventional Commits (optional but helpful)
 
 Git (built-in in VS Code)
 
 GitLens (optional for viewing commit history)
- Sign in with your GitHub account from the lower-left corner of VS Code.
+
+Sign in with your GitHub account from the lower-left corner of VS Code.
 
 7. <strong> Initialize Git and make your first commit</strong>
  In the VS Code terminal, type:
