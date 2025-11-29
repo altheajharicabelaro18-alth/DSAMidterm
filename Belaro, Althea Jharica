@@ -1,0 +1,31 @@
+try:
+    number1 =input('Enter the num')
+    num1 = float(number1)
+except ValueError:
+    print('Error: Invalid input.')
+sign = input('Enter the sign ( +, -, *, /, **, ^,): ')
+try:    
+    number2 = input('Enter the number')
+    num2 = float(number2)
+except ValueError:
+    print('Error: Invalid input.')
+    exit()
+if sign =='+':
+     print('your result is '+ str(num1 + num2))  
+elif sign == '-':
+    print('your result is '+ str(num1 - num2))  
+elif sign == '*':
+    print('your result is '+ str(num1 * num2))
+elif sign == '/':
+    if num2 != 0:
+        result= num1 / num2  
+        print('your result is'+ str(num1 / num2))  
+    else: 
+        print('Error: Division by zero is not allowed.')    
+elif sign == '**' :  # square:   
+    result= num1 * num1 
+    print('your result is '+ str(result))  
+elif sign == '^' :
+     result= num1 ** num2 
+     print('your result is '+ str(result))
+      
